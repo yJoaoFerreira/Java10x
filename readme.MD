@@ -48,3 +48,7 @@ String Local = "Japão";
 Boolean Vivo = True;
 Boolean Morto = False;
 ```
+
+---
+
+# Dados Primitivos & Não Primitivos em Java
