@@ -88,3 +88,7 @@ public static void main(String[] args) {
   - **Long:** Números inteiros maiores que um int.
 
 - **Dados Não Primitivos:** São tipos de dados em que pode-se colocar métodos para fazer alterações na variável sem que seja mudado seu escopo.
+  -  **String:**
+  - **Array:**
+  - **Class:**
+  - **enum:**
