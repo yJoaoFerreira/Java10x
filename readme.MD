@@ -51,6 +51,28 @@ Boolean Morto = False;
 
 ---
 
+# Saída de Dados
+
+`System.out.print()` ~> Exibe uma informação sem pular linha. <br>
+**Exemplo básico:** Eu quero exibir a idade do personagem lux, o  que eu faço?
+```java
+public static void main(String[] args) {
+  System.out.print("Sua idade é: " + idade);
+}
+```
+
+`System.out.println()` ~> Exibe uma informação pulando linha. <br>
+**Exemplo básico:** Eu quero exibir mais de uma informação por vez do personagem lux, o que eu faço agora?
+```java
+public static void main(String[] args) {
+  System.out.println("Seu nome é: " + nome);
+  System.out.println("Seu sobrenome é: " + sobrenome);
+  System.out.print("Sua idade é: " + idade);
+}
+```
+
+---
+
 # Dados Primitivos & Não Primitivos em Java
 
 - **Dados Primitivos:**
@@ -62,3 +84,5 @@ Boolean Morto = False;
   - **byte:** Números inteiros pequenos.
   - **short:** Números inteiros menores que um int.
   - **Long:** Números inteiros maiores que um int.
+
+- **Dados Não Primitivos:**
