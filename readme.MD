@@ -49,8 +49,6 @@ Boolean Vivo = True;
 Boolean Morto = False;
 ```
 
----
-
 # Saída de Dados
 
 `System.out.print()` ~> Exibe uma informação sem pular linha. <br>
@@ -71,7 +69,11 @@ public static void main(String[] args) {
 }
 ```
 
----
+# Shortcuts
+
+> psvm: escreve todo o cabeçalho do java pra você. <br>
+> sout: escreve o println completo pra você.  <br>
+> soutv: escreve o println completo puxando a última variável declarada.
 
 # Dados Primitivos & Não Primitivos em Java
 
