@@ -3,7 +3,7 @@ package TiposDeDados;
 public class DadosPrimitivos {
     // Atalho: "psvm"
     public static void main(String[] args) {
-        // Dados Primitivos - int, double, float, char, boolean, short
+        // Dados Primitivos: int, double, float, char, boolean, short
         // Objetivo da aula: Criar um personagem de RPG - Haisuu
 
         // Valor máximo do int: 2 147 483 647

@@ -77,7 +77,7 @@ public static void main(String[] args) {
 
 # Dados Primitivos & Não Primitivos em Java
 
-- **Dados Primitivos:**
+- **Dados Primitivos:** São tipos de dado que de maneira geral não recebem métodos de maneira padrão.
   - **int:** Números inteiros.
   - **float:** Números de ponto flutuante de precisão simples.
   - **double:** Números de ponto flutuante de precisão dupla.
@@ -87,4 +87,4 @@ public static void main(String[] args) {
   - **short:** Números inteiros menores que um int.
   - **Long:** Números inteiros maiores que um int.
 
-- **Dados Não Primitivos:**
+- **Dados Não Primitivos:** São tipos de dados em que pode-se colocar métodos para fazer alterações na variável sem que seja mudado seu escopo.
