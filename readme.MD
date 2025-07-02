@@ -92,3 +92,18 @@ public static void main(String[] args) {
   - **Array:**
   - **Class:**
   - **enum:**
+
+# Condições
+
+Imagine que você é um caçador de solo leveling, você começaria sua história sendo um caçador de rank nacional? NÃO! Você primeiro seria um humano normal, depois despertaria como um Rank E, ganharia o sistema. Com o passar dos níveis viraria um Rank D, depois um Rank C, após isso um Rank B, depois de muita luta, um Rank A, e com sorte, viraria um Rank S, pra só no fim, se tornar um Rank Nacional. Tudo é feito por etapas e você não tem como pular nenhuma. Ou seja, condições são etapas que são criadas para que algo aconteça, o Sung só pode se tornar um Rank S após completar um número específico de dungeons.
+
+```java
+// exemplo:
+if(idade >= 18){
+  System.out.println("Você é maior de idade!");
+}else if(idade < 18 && idade > 12){
+  System.out.println("Você ainda é um adolescente!");
+}else{
+  System.out.println("Você ainda é uma criança!")
+}
+```
