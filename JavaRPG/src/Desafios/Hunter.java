@@ -8,6 +8,10 @@ public class Hunter {
     char RankDungeon;
     boolean StatusDungeon;
 
+    private boolean VerificarStatus() {
+        return this.Idade >= 15 || this.RankDungeon == 'C' || this.RankDungeon == 'D';
+    }
+
     public Hunter(String Nome, int Idade, char Rank, String NomeDungeon, char RankDungeon, boolean StatusDungeon) {
         this.Nome = Nome;
         this.Idade = Idade;
@@ -15,19 +19,6 @@ public class Hunter {
         this.NomeDungeon = NomeDungeon;
         this.RankDungeon = RankDungeon;
         this.StatusDungeon = VerificarStatus();
-    }
-
-    public Hunter() {
-        this.Nome = "Desconhecido";
-        this.Idade = 0;
-        this.Rank = 'F';
-        this.NomeDungeon = "Desconhecido";
-        this.RankDungeon = 'F';
-        this.StatusDungeon = false;
-    }
-
-    private boolean VerificarStatus() {
-        return this.Idade >= 15 || this.RankDungeon == 'C' || this.RankDungeon == 'D';
     }
 
     public void molde() {
