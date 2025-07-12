@@ -63,7 +63,7 @@ public class Desafio1 {
 
 /* Método Alternativo:
 
-package Condicoes;
+package Desafios;
 
 public class Desafio1 {
     public static void Ninja(String Nome, int Idade, String NomeMissao, char RankMissao) {
